@@ -3,7 +3,7 @@ import ollama
 from pathlib import Path
 
 MODEL = "qwen3:8b"
-ROOT = Path(r"C:\LocalAI\workspace").resolve()
+ROOT = Path(r"C:\Jamshed").resolve()
 ROOT.mkdir(parents=True, exist_ok=True)
 
 st.set_page_config(page_title="Qwen3 File Agent", page_icon="🤖")
